@@ -6,7 +6,7 @@ function App() {
       <div className="h-[960px] overflow-hidden">
         <div className="grid grid-cols-2 overflow-y-auto h-full">
           <div className="flex gap-2 flex-wrap h-fit">
-            <div className="min-w-80 h-40 bg-slate-500"></div>
+            <div className="min-w-80 h-40 bg-[url('src/assets/images/Clock.png')]"></div>
             <div className="min-w-80 h-40 bg-slate-500"></div>
             <div className="min-w-80 h-40 bg-slate-500"></div>
             <div className="min-w-80 h-40 bg-slate-500"></div>
