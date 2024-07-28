@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "pack-train": "url('./assets/images/Clock.png')",
+        "pack-train": "url('src/assets/images/Clock.png')",
       },
     },
   },
