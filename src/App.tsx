@@ -1,12 +1,8 @@
 import "./App.css";
-import Practice from "./components/Practice";
-import Slider from "./components/Slider";
 
 function App() {
   return (
     <>
-      {/* <Slider />  */}
-      {/* <Practice /> */}
       <div className="h-[960px] overflow-hidden">
         <div className="grid grid-cols-2 overflow-y-auto h-full">
           <div className="flex gap-2 flex-wrap h-fit">
