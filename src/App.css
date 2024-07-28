@@ -1,0 +1,52 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.features-card-bg-img.double {
+  /* -webkit-clip-path: url(#clip-path-features-1-nocolor); */
+  clip-path: url(#clip-path-features-1-nocolor);
+}
+
+.cards {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  gap: 5px;
+}
+
+.card {
+  flex: 1;
+  height: 500px;
+  transition: 0.5s;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-hover {
+  flex: 6;
+}
+.not-hover {
+  flex: 1;
+}
+
+.card:hover {
+  flex: 6;
+}
+
+main {
+  display: none;
+  grid-column-gap: 27px;
+  grid-row-gap: 27px;
+  flex-flow: wrap;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: flex-start;
+  /* display: grid; */
+}
