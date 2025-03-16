@@ -13,7 +13,9 @@
     "locomotive-scroll": "^4.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-locomotive-scroll": "^0.2.2"
+    "react-locomotive-scroll": "^0.2.2",
+    "styled-jsx": "^5.1.6",
+    "ua-parser-js": "^2.0.0"
   },
   "devDependencies": {
     "@types/locomotive-scroll": "^4.1.3",
